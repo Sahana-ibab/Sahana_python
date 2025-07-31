@@ -1,0 +1,4 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.parquet filter=lfs diff=lfs merge=lfs -text
+sem_2/ml/project/SMILES.csv filter=lfs diff=lfs merge=lfs -text
+sem_2/ml/project/SMILES_filtered.csv filter=lfs diff=lfs merge=lfs -text

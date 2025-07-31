@@ -1,0 +1,17 @@
+# Ignore cache and other unneeded folders
+__pycache__/
+*.ipynb_checkpoints/
+*.log
+*.csv
+*.h5
+*.zip
+*.tar.gz
+*.npy
+*.pkl
+data/
+sem_2/ml/Sahana/lab*/__pycache__/
+sem_2/ml/lab*/__pycache__/
+sem_2/ml/project/SMILES.csv
+sem_2/ml/project/SMILES_filtered.csv
+sem_2/ml/project/SMILES.csv
+sem_2/ml/project/SMILES_filtered.csv
