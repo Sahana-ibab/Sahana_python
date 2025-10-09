@@ -62,7 +62,7 @@ print("   Indices:", captions_indices[list(captions_indices.keys())[0]][0])
 
 # Save data
 data = {
-    "captions_indices": captions_indices,  # dict: {image -> [list of caption sequences]}
+    "captions_indices": captions_indices, 
     "word2idx": word2idx,
     "idx2word": idx2word
 }
@@ -70,4 +70,4 @@ data = {
 with open("captions.pkl", "wb") as f:
     pickle.dump(data, f)
 
-print("Saved processed captions → captions.pkl")
+print("Saved as captions.pkl")
